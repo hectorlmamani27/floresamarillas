@@ -10,7 +10,7 @@ function aparecerImagen() {
         } else {
             clearInterval(fadeInInterval); // Detiene la animación cuando la opacidad llega a 1
         }
-    }, 10); // Intervalo de tiempo para la animación (en milisegundos)
+    }, 20); // Intervalo de tiempo para la animación (en milisegundos)
 }
 
-setTimeout(aparecerImagen, 2000); // Espera 2 segundos antes de mostrar la imagen
+setTimeout(aparecerImagen, 500); // Espera 2 segundos antes de mostrar la imagen
