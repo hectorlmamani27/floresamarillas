@@ -1,6 +1,5 @@
-// JavaScript para mostrar una imagen con efecto "fade in" más rápido
+// JavaScript para mostrar una imagen con efecto "fade in" y reproducir la canción automáticamente
 const imagen = document.getElementById('imagen');
-const botonReproducir = document.getElementById('reproducir');
 const cancion = document.getElementById('cancion');
 
 function aparecerImagen() {
@@ -15,11 +14,8 @@ function aparecerImagen() {
     }, 20); // Intervalo de tiempo más corto para una animación más rápida (en milisegundos)
 }
 
-// Agrega un evento clic al botón para iniciar la reproducción de la canción
-botonReproducir.addEventListener('click', function () {
-    cancion.play();
-    botonReproducir.style.display = 'none'; // Oculta el botón después de hacer clic
-});
+// Reproducir la canción automáticamente al iniciar la página
+cancion.play();
 
 // Esperar 0.5 segundos (500 milisegundos) antes de mostrar la imagen con efecto "fade in"
 setTimeout(aparecerImagen, 500);
