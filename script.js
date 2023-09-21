@@ -13,4 +13,10 @@ function aparecerImagen() {
     }, 20); // Intervalo de tiempo para la animación (en milisegundos)
 }
 
-setTimeout(aparecerImagen, 500); // Espera 2 segundos antes de mostrar la imagen
+// Reproducir la canción al iniciar la página
+const cancion = document.getElementById('cancion');
+cancion.play();
+
+// Esperar 2 segundos antes de mostrar la imagen con efecto "fade in"
+setTimeout(aparecerImagen, 500);
+
