@@ -16,11 +16,24 @@ body, html {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 300px; /* Ajusta el tamaño de la imagen según tus preferencias */
+    width: 600px; /* Ajusta el tamaño de la imagen según tus preferencias */
     height: auto;
     opacity: 0; /* La imagen estará inicialmente oculta */
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Agrega una sombra a la imagen */
 }
 
+#texto {
+    position: absolute;
+    top: 50%; /* Coloca el texto en la mitad superior del contenedor */
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centra el texto vertical y horizontalmente */
+    font-family: fantasy; /* Cambia la fuente a una más elegante */
+    font-size: 60px; /* Cambia el tamaño del texto según tus preferencias */
+    color: black; /* Cambia el color del texto a negro */
+    text-align: center; /* Centra el texto horizontalmente */
+}
+
 /* Estilos adicionales para ajustar según tus preferencias */
+
+
 
